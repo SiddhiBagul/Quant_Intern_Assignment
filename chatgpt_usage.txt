@@ -1,0 +1,16 @@
+# AI Usage Transparency Note
+
+## Usage
+I utilized an AI Assistant (Google DeepMind's Antigravity) to act as a pair programmer for this assignment.
+
+## Prompts & Interactions
+- **Architecture Design**: Used AI to brainstorm the modular architecture (separating ingestion from frontend) to ensure scalability.
+- **Code Generation**:
+    - "Create a robust Python WebSocket client for Binance" -> Used for `backend/ingestion.py`.
+    - "Implement OLS hedge ratio and ADF test in Python" -> Used for `backend/analytics.py`.
+    - "Build a dark-mode Streamlit dashboard with real-time updates" -> Used for `frontend/app.py`.
+- **Debugging**: Utilized AI to fix minor syntax errors and ensure correct parameter passing between modules.
+- **Documentation**: AI helped draft the README and Architecture Diagram prompt.
+
+## Reasoning
+The use of AI accelerated the boilerplate setup (WebSocket handling, Streamlit layout), allowing more time to focus on the quantitative logic (Spread, Z-Score) and system design (SQLite indexing, modularity). All code was reviewed and tested to ensure accuracy.

@@ -1,0 +1,14 @@
+2025-12-17 03:29:58,838 - INFO - Connecting to Binance WebSocket: wss://fstream.binance.com/stream?streams=btcusdt@trade/ethusdt@trade
+2025-12-17 03:29:59,499 - INFO - Connected to Binance
+2025-12-17 03:31:52,271 - INFO - Stopping ingestion...
+2025-12-17 03:33:31,392 - INFO - Connecting to Binance WebSocket: wss://fstream.binance.com/stream?streams=btcusdt@trade/ethusdt@trade
+2025-12-17 03:33:31,994 - INFO - Connected to Binance
+2025-12-17 03:34:38,483 - INFO - Stopping ingestion...
+2025-12-17 03:38:08,159 - INFO - Connecting to Binance WebSocket: wss://fstream.binance.com/stream?streams=btcusdt@trade/ethusdt@trade
+2025-12-17 03:38:08,792 - INFO - Connected to Binance
+2025-12-17 03:42:10,944 - INFO - Connecting to Binance WebSocket: wss://fstream.binance.com/stream?streams=btcusdt@trade/ethusdt@trade
+2025-12-17 03:42:11,532 - INFO - Connected to Binance
+2025-12-17 03:42:58,414 - INFO - Stopping ingestion...
+2025-12-17 03:43:03,512 - INFO - Stopping ingestion...
+2025-12-17 03:44:09,532 - INFO - Connecting to Binance WebSocket: wss://fstream.binance.com/stream?streams=btcusdt@trade/ethusdt@trade
+2025-12-17 03:44:10,126 - INFO - Connected to Binance
